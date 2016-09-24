@@ -23,6 +23,9 @@ Ajout des dépots dotdeb https://www.dotdeb.org/
 display_errors on
 ServerTokens Full
 
+####Extensions installées####
+XDebug
+
 ###Configuration Apache###
 Module Rewrite activé
 
