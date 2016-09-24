@@ -41,6 +41,9 @@ Dans le dossier de travail :
 
 Puis remplacer le fichier Vagrantfile généré par celui du package.
 Adapter la directive config.vm.box_url par le chemin vers le fichier .box téléchargé.
+Adpater la directive pour l'accès à la vm :
+- configurer config.vm.network "forwarded_port" pour rediriger les ports vers la VM si utilisation de localhost
+- ou configurer config.vm.network "public_network" si utilisation d'un DNS privé et d'un sous-domaine spécifique
 
 Lancement de la VM 
 `vagrant up`
